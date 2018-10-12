@@ -1,7 +1,7 @@
 var numeros = [];
 var numero = prompt("Numero a buscar entre els aleatoris.");
 for (var i = 0 ; i< 500000; i++){
-    numeros[i]=Math.round(Math.random() * 500000);
+    numeros[i]=Math.round(Math.random() * 1000000);
 }
 var trobat = false;
 var primertemps = new Date();
